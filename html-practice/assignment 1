@@ -1,0 +1,114 @@
+ASSIGNMENT 1
+Web Development
+1. Difference between Frontend, Backend and Full-Stack Development
+Frontend Development: Frontend is the part of a website that users can see and interact with. Technologies include HTML, CSS, JavaScript and React. Example: On an online shopping website, product images, buttons, menus and the shopping cart interface are frontend.
+Backend Development: Backend is the server-side part of a website. It handles business logic, databases, authentication and requests from the frontend. Technologies include Java, Python, Node.js and PHP. Example: When a user logs in, the backend checks the username and password from the database.
+Full-Stack Development: Full-stack development involves working on both frontend and backend of an application. Example: A full-stack developer can create the shopping website interface, develop its server-side logic and connect it to the database.
+2. Client-Server Model Diagram
+CLIENT (Web Browser)
+        |
+        | HTTP Request
+        v
+     SERVER
+ (Web Server/Application)
+        |
+        | Database Query
+        v
+     DATABASE
+        |
+        | Data
+        v
+     SERVER
+        |
+        | HTTP Response
+        v
+CLIENT (Web Browser)
+Explanation: The client sends a request to the server. The server processes the request and may communicate with the database. After processing, the server sends a response back to the client.
+3. How a Browser Requests and Displays a Web Page
+1. The user enters a URL in the browser.
+2. The browser finds the server's IP address using DNS.
+3. The browser establishes a connection with the web server.
+4. The browser sends an HTTP/HTTPS request.
+5. The web server processes the request.
+6. The server sends HTML, CSS, JavaScript and other resources.
+7. The browser downloads these resources.
+8. The browser parses HTML and creates the DOM.
+9. CSS is applied and JavaScript is executed when required.
+10. The browser renders and displays the webpage.
+4. Tools Required to Set Up a Web Development Environment
+VS Code – Used for writing and editing HTML, CSS and JavaScript.
+Web Browser – Used to run and test websites.
+Git – Used for version control and tracking code changes.
+GitHub – Used for storing and sharing Git repositories online.
+Node.js – Used to run JavaScript outside the browser and manage packages.
+Git Bash – Used to execute Git and command-line commands.
+Live Server – Helps developers see webpage changes immediately during development.
+5. What is a Web Server?
+A web server is a computer system or software that receives requests from clients such as web browsers and sends web resources such as HTML, CSS, JavaScript, images and other data in response.
+Common web servers include:
+1. Apache HTTP Server
+2. Nginx
+3. Microsoft IIS
+4. LiteSpeed
+5. Node.js HTTP Server
+6. Roles of Frontend Developer, Backend Developer and Database Administrator
+Frontend Developer: Creates the user interface, webpage layouts, buttons, forms and responsive designs, and connects the frontend with backend APIs.
+Backend Developer: Develops server-side applications, APIs, authentication, request processing, business logic and database connectivity.
+Database Administrator (DBA): Creates and manages databases, maintains security, performs backups and restores, monitors performance and manages user permissions.
+7. Install and Configure VS Code for HTML, CSS and JavaScript
+Steps:
+1. Download and install Visual Studio Code.
+2. Open VS Code.
+3. Create a project folder and open it in VS Code.
+4. Create index.html, style.css and script.js.
+5. Install the Live Server extension.
+6. Install useful extensions such as Prettier and HTML CSS Support.
+7. Run the HTML file using Live Server.
+Basic project structure:
+WebProject
+|-- index.html
+|-- style.css
+|-- script.js
+Note: A screenshot of the VS Code setup should be attached to the assignment.
+8. Difference Between Static and Dynamic Websites
+Static Website: A static website displays fixed content. The content generally remains the same unless the developer manually changes the files. Example: A portfolio website.
+Dynamic Website: A dynamic website generates or changes content based on user interaction, database information or other conditions. Example: Amazon or an online banking website.
+Static websites are generally simpler and faster to develop, while dynamic websites often require server-side processing and databases.
+9. Five Web Browsers and Their Rendering Engines
+1. Google Chrome – Blink
+2. Microsoft Edge – Blink
+3. Mozilla Firefox – Gecko
+4. Apple Safari – WebKit
+5. Opera – Blink
+Rendering engines interpret HTML, CSS and other webpage resources and convert them into the visual webpage displayed by the browser.
+10. Basic Web Architecture Flow — Client, Server, Database and APIs
+CLIENT (Web Browser)
+        |
+        | HTTP Request
+        v
+      SERVER
+        |
+        | API Request
+        v
+       API
+        |
+        | Database Query
+        v
+    DATABASE
+        |
+        | Data
+        v
+       API
+        |
+        | Response
+        v
+      SERVER
+        |
+        | HTTP Response
+        v
+CLIENT (Web Browser)
+Client: The user's browser that sends requests.
+Server: Processes requests and performs application/business logic.
+API: Provides a communication interface between software components such as frontend and backend.
+Database: Stores application data such as users, products and orders.
+Example: In an online shopping website, the browser sends a product-search request to the server/API. The database provides the product information, and the result is returned to the browser.
